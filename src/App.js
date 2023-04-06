@@ -1,11 +1,15 @@
-import './App.css';
+/* import './App.css'; */
+import Background from './Components/Background/Background';
 import Calculator from './Main/Calculator';
 
 function App() {
   return (
     <div className="App">
       <h1>Calculator</h1>
-      <Calculator/>
+      {/* <Calculator/> */}
+      <Background>
+        <Calculator/>
+      </Background>
     </div>
   );
 }
